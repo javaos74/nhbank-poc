@@ -1,0 +1,78 @@
+{
+  "name": "NHBankPoC",
+  "description": "NBBank PoC 데모 프로세스 ",
+  "main": "농협은행사이트접속.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.16.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.10.2]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.4.0",
+  "projectVersion": "1.0.6",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "농협은행사이트접속.xaml",
+      "uniqueId": "1f9fcf40-98ac-45b0-ad58-dc4bf26eae45",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "농협뉴스스크랩.xaml",
+      "uniqueId": "d4617345-6574-436a-92f4-b4e6fba05418",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "금강위공통업무엑셀취합.xaml",
+      "uniqueId": "45e4f7c1-32ed-44de-bf16-6cfafdf8d5a4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "RPA챌린지.xaml",
+      "uniqueId": "40a77c11-fadd-4adc-aea2-d522b916a689",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
