@@ -107,13 +107,13 @@
         <OutArgument x:TypeArguments="x:String">[service_url]</OutArgument>
       </ui:GetRobotAsset.Value>
     </ui:GetRobotAsset>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: NH Bank - 농협인터넷뱅킹" sap:VirtualizedContainerService.HintSize="659.2,2195.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: NH Bank - 농협인터넷뱅킹" sap:VirtualizedContainerService.HintSize="659.2,2196" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="625.6,1968.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="625.6,1969.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="dt_events" />
             </Sequence.Variables>
@@ -122,7 +122,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NHover DisplayName="Hover '라운지'" sap:VirtualizedContainerService.HintSize="563.2,167.2" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
+            <uix:NHover CursorMotionType="Smooth" DisplayName="Hover '라운지'" sap:VirtualizedContainerService.HintSize="563.2,167.2" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="HardwareEvents" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
               <uix:NHover.Target>
                 <uix:TargetAnchorable BrowserURL="https://banking.nonghyup.com/nhbank.html" DesignTimeRectangle="1883, 401, 88, 50" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'라운지'" FullSelectorArgument="&lt;webctrl parentid='IPZZ05' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='IPZZ05' tag='SPAN' type='' class='' aaname='라운지' check:innerText='라운지' /&gt;" Guid="950e639e-059d-47cd-addf-bd7f4fafa5a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAA2CAYAAABKgP5kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAPLSURBVHhe7ZmtkrMwFIa/W+hV4CrrKutwSFwlDonrHeCQdUgcEodD4pC4SBzy/cKSQmCBkpRm6W6emTOzs0vT5MkP52T/QaMULVwxWrhitHDFaOGK0cIVo4UrRgtXjBauGC1cMVq4YrRwxWjhinm7cBLZOBwOX+Fn7JcvUaOqKi5q9vudQCLYbLyHiQHvXnhdFUjCG1zbxMlgA5kI42TCdm8I4xzkJ+dARng9WEFrY3qU0sJJiuB6gvHovFAcYXkRioq1pRJx4Rn8QedXhh2BsBZ4ZITXmQ+TW83G6QovjJEVZGJi2yOmzBNE/nW4C44O4pI9NgX9nu5Z2RgP6uOEVwncTtoFblRAbKESJDez3xmXADn7yzf2IVwEbnI2Ep4H5+55K1xankvUSD2ja8dN5qZs/ALmIrl1n7dDOulTzzQx3nCfJZwgvrL2DjYiWd8NWS/M8GfX+Dzc6rejqZHN8FnCKyQua+9gQnqBU+rU6773HGjhs5Sh1T1/vmV008tQIrJZvw4GbqlEK39FOE1R4F9Ym1SWKZje1TSd9K3+/DauEdUvwZ8R3lDSTKWT3sQRF8fDPUqQZgUI/9IiBbI0RdwUR9aR+wyVbdEMRW6LDI4kU+RskxG+vvBJcHs0vqXwLwjSYJRXr4wmb/dj0XRySBmafZtusr4tceGEO/8EYoXwqXg+CXVb1Nzb8t40x9UnXf1mW9YHtDjKS8klPWDkwPDpXl7J5wv/AaoYzqCfAi/el4TPSBSBF+7cU6T0vOXjR+47ntBlSoYN22IunHjdsbIn4XOrWe6yTDaerdQcwbntr0E7TGKH9f+CVen8/oVLHmGy8WRMZddfixVe/QQs3ss80MJHsTSmspdlcJlJlbjdi/pCB7G4Rz7hSBFGtihZYlBwje9xmjueRzFlwKJny6x0LXwNJaJOaNPmRKEzqoAb6ZMv0bcIrx8vIIIia7KNJk8OEHhOmyef+7Nu98LrAiEne/EqgB45V64QO9oB0vHXvyRcOjw80lZh4fmdTlpT4JjwkhmZGwmv8hDOse+3YdIC51kSU8bfrh2cmOvDe4W3VV4jx/HoCr9HSNIMBam6M05Y+BqZWwgn8WC1Ct27VAUi99J+dpy5iAt/lhev7VXLboVT2uzjCDvIpO5dqiJBNj5/ZIRvyVuE0/3TLQCx+R/RtMN+3IrfKXzHaOGK+WjhS/8tF4qXzh0xPln4ZrFBAbcaLZzGXxJeZSGCgOboNJLZEu43sZxBvV24ZogWrhgtXDFauGK0cMVo4YrRwhWjhStGC1eMFq4U4D9ZzEea+gtnogAAAABJRU5ErkJggg==" InformativeScreenshot="37dd92a8dbbb76a1e9ca80f9ab087de9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1671110829215' title='NH Bank - 농협인터넷뱅킹' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -185,7 +185,7 @@
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAGsSURBVDhPlZI5SwNREMfzIQSPJIKgblIatDF+AisRbKysbEQRCR6g4IFCECGthRfm0BSCIAYsUiQrOXWzYoJRcUESjKAGsbEbndmd3Wy00IEf8/7zZv7v7WMtGIqiQPA0qhM+i/0K7yczWaBBjJJShq5QBZyH7yYcBwasa7MvopkU74oghKqmAQRrDGscZN0XUFSDfCEPQvAVnKE3E1hjWNdm3UCWZRACL+CsA2sMazLQtHv/XjWQJAk6th6BQ/A/Q+dOidbtmw+UvbEnqjv2yqQHjsqGQSqV0huPxXtqZt22nqe8enoHwn5FNx72FwwDUYxD65za2DAUoGzzSJStk2nK9TG0kYWeNdkwsE9f00bzmAiNIxFaY6DGWNxN05r1DwM+ERtwvX1iGFY/PmE5nIfWhRv9pv0r59C9dKEaJJNJugGebJuSqallIqHqyRw0jUbJCHtwD+v4aa75tPGIds8VNZjAGqNpNGDtmk2oBtlMhk7C001gjdE0DrPWDfBHso5fmge+wRrDujbjO5ABRiJ3C+458U/0zsRh0BsDvLk2robP54P/oE5ZLF9cApJMCeMI+wAAAABJRU5ErkJggg==" InformativeScreenshot="89084e8f4eac5a7daddad391bd6258a6.jpg" Selector="&lt;html app='msedge.exe' htmlwindowname='1671110829215' title='NH Bank - 농협인터넷뱅킹' /&gt;" Url="https://banking.nonghyup.com/nhbank.html" />
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAGsSURBVDhPlZI5SwNREMfzIQSPJIKgblIatDF+AisRbKysbEQRCR6g4IFCECGthRfm0BSCIAYsUiQrOXWzYoJRcUESjKAGsbEbndmd3Wy00IEf8/7zZv7v7WMtGIqiQPA0qhM+i/0K7yczWaBBjJJShq5QBZyH7yYcBwasa7MvopkU74oghKqmAQRrDGscZN0XUFSDfCEPQvAVnKE3E1hjWNdm3UCWZRACL+CsA2sMazLQtHv/XjWQJAk6th6BQ/A/Q+dOidbtmw+UvbEnqjv2yqQHjsqGQSqV0huPxXtqZt22nqe8enoHwn5FNx72FwwDUYxD65za2DAUoGzzSJStk2nK9TG0kYWeNdkwsE9f00bzmAiNIxFaY6DGWNxN05r1DwM+ERtwvX1iGFY/PmE5nIfWhRv9pv0r59C9dKEaJJNJugGebJuSqallIqHqyRw0jUbJCHtwD+v4aa75tPGIds8VNZjAGqNpNGDtmk2oBtlMhk7C001gjdE0DrPWDfBHso5fmge+wRrDujbjO5ABRiJ3C+458U/0zsRh0BsDvLk2robP54P/oE5ZLF9cApJMCeMI+wAAAABJRU5ErkJggg==" InformativeScreenshot="89084e8f4eac5a7daddad391bd6258a6.jpg" Selector="&lt;html app='msedge.exe' htmlwindowname='1671110829215' title='NH Bank - 농협인터넷뱅킹' /&gt;" Url="[service_url]" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>
