@@ -1,9 +1,29 @@
-A1팀-템플릿
+머신 키/클라이언트 정보 
 
 
 A1팀-Gor5pkhrOLr7rUe9
 A2팀-xtFNRAeBFB3A10BX
+A3팀-p4MQULFDScMqx6ek
 A4팀-KGPgG7av3MIOlK5F
 A5팀-Yk3JxhOUUi8ZAkAD
 B1팀-QQmbD0Ct5rn6njVs
 B2팀-5NuNFzes0YhYp2r1
+B3팀-JeqtpqaFGmXWY3w7
+B4팀-P6VIaHZimGwFYLh7
+B5팀-WSjvQ9I8HI3WE5XJ
+C1팀-WnfhTwMtuTcUR4sM
+C2팀-3inoL24WFmoJwHTp
+C3팀-LosAuK9pZANgHUjf
+C4팀-6xHY3KB9b751c8Oq
+C5팀-Udrq5lSvEbIUENsT
+D1팀-L2s8T4K9IHuZyyzW
+D2팀-wb6oHgkeKgEid1nD
+D3팀-h6e5hMINjozicsbl
+D4팀-f8SH9BlCYs9wmiam
+D5팀-vwzyi9g0cMuRiFEl
+E1팀-7vwdGMJ1g2vOTRKf
+E2팀-XRSamL7Zv20LNMeQ
+E3팀-s9BSTczLO2vvllMr
+E4팀-GwvvCJZY3l8Hgmm7
+E5팀-nG2GLXBxT1Hdz567
+공용-9bwXqFadODiWt0sK
