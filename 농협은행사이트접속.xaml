@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>715.2,2572</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>947,2441</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="64">
@@ -90,10 +90,9 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="721.6,2507.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="609,2376" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="service_url" />
     </Sequence.Variables>
@@ -102,18 +101,18 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="NHBANK_URL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="[DefaultFolder]" sap:VirtualizedContainerService.HintSize="659.2,148.8" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="NHBANK_URL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="[DefaultFolder]" sap:VirtualizedContainerService.HintSize="547,140" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
       <ui:GetRobotAsset.Value>
         <OutArgument x:TypeArguments="x:String">[service_url]</OutArgument>
       </ui:GetRobotAsset.Value>
     </ui:GetRobotAsset>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: NH Bank - 농협인터넷뱅킹" sap:VirtualizedContainerService.HintSize="659.2,2196" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: NH Bank - 농협인터넷뱅킹" sap:VirtualizedContainerService.HintSize="547,2085" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="625.6,1969.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="513,1867" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="dt_events" />
             </Sequence.Variables>
@@ -122,7 +121,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NHover CursorMotionType="Smooth" DisplayName="Hover '라운지'" sap:VirtualizedContainerService.HintSize="563.2,167.2" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="HardwareEvents" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
+            <uix:NHover CursorMotionType="Smooth" DisplayName="Hover '라운지'" sap:VirtualizedContainerService.HintSize="451,158" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="HardwareEvents" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
               <uix:NHover.Target>
                 <uix:TargetAnchorable BrowserURL="https://banking.nonghyup.com/nhbank.html" DesignTimeRectangle="1883, 401, 88, 50" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'라운지'" FullSelectorArgument="&lt;webctrl parentid='IPZZ05' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='IPZZ05' tag='SPAN' type='' class='' aaname='라운지' check:innerText='라운지' /&gt;" Guid="950e639e-059d-47cd-addf-bd7f4fafa5a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAA2CAYAAABKgP5kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAPLSURBVHhe7ZmtkrMwFIa/W+hV4CrrKutwSFwlDonrHeCQdUgcEodD4pC4SBzy/cKSQmCBkpRm6W6emTOzs0vT5MkP52T/QaMULVwxWrhitHDFaOGK0cIVo4UrRgtXjBauGC1cMVq4YrRwxWjhinm7cBLZOBwOX+Fn7JcvUaOqKi5q9vudQCLYbLyHiQHvXnhdFUjCG1zbxMlgA5kI42TCdm8I4xzkJ+dARng9WEFrY3qU0sJJiuB6gvHovFAcYXkRioq1pRJx4Rn8QedXhh2BsBZ4ZITXmQ+TW83G6QovjJEVZGJi2yOmzBNE/nW4C44O4pI9NgX9nu5Z2RgP6uOEVwncTtoFblRAbKESJDez3xmXADn7yzf2IVwEbnI2Ep4H5+55K1xankvUSD2ja8dN5qZs/ALmIrl1n7dDOulTzzQx3nCfJZwgvrL2DjYiWd8NWS/M8GfX+Dzc6rejqZHN8FnCKyQua+9gQnqBU+rU6773HGjhs5Sh1T1/vmV008tQIrJZvw4GbqlEK39FOE1R4F9Ym1SWKZje1TSd9K3+/DauEdUvwZ8R3lDSTKWT3sQRF8fDPUqQZgUI/9IiBbI0RdwUR9aR+wyVbdEMRW6LDI4kU+RskxG+vvBJcHs0vqXwLwjSYJRXr4wmb/dj0XRySBmafZtusr4tceGEO/8EYoXwqXg+CXVb1Nzb8t40x9UnXf1mW9YHtDjKS8klPWDkwPDpXl7J5wv/AaoYzqCfAi/el4TPSBSBF+7cU6T0vOXjR+47ntBlSoYN22IunHjdsbIn4XOrWe6yTDaerdQcwbntr0E7TGKH9f+CVen8/oVLHmGy8WRMZddfixVe/QQs3ss80MJHsTSmspdlcJlJlbjdi/pCB7G4Rz7hSBFGtihZYlBwje9xmjueRzFlwKJny6x0LXwNJaJOaNPmRKEzqoAb6ZMv0bcIrx8vIIIia7KNJk8OEHhOmyef+7Nu98LrAiEne/EqgB45V64QO9oB0vHXvyRcOjw80lZh4fmdTlpT4JjwkhmZGwmv8hDOse+3YdIC51kSU8bfrh2cmOvDe4W3VV4jx/HoCr9HSNIMBam6M05Y+BqZWwgn8WC1Ct27VAUi99J+dpy5iAt/lhev7VXLboVT2uzjCDvIpO5dqiJBNj5/ZIRvyVuE0/3TLQCx+R/RtMN+3IrfKXzHaOGK+WjhS/8tF4qXzh0xPln4ZrFBAbcaLZzGXxJeZSGCgOboNJLZEu43sZxBvV24ZogWrhgtXDFauGK0cMVo4YrRwhWjhStGC1eMFq4U4D9ZzEea+gtnogAAAABJRU5ErkJggg==" InformativeScreenshot="37dd92a8dbbb76a1e9ca80f9ab087de9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1671110829215' title='NH Bank - 농협인터넷뱅킹' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -133,7 +132,7 @@
                 </uix:TargetAnchorable>
               </uix:NHover.Target>
             </uix:NHover>
-            <uix:NClick ClickType="Single" DisplayName="Click '이벤트'" sap:VirtualizedContainerService.HintSize="563.2,167.2" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
+            <uix:NClick ClickType="Single" DisplayName="Click '이벤트'" sap:VirtualizedContainerService.HintSize="451,158" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://banking.nonghyup.com/nhbank.html" DesignTimeRectangle="857, 670, 392, 36" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'이벤트'" FullSelectorArgument="&lt;webctrl parentid='IPZZ050404' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='IPZZ050404' tag='A' type='' class='' aaname='이벤트' check:innerText='이벤트' /&gt;" Guid="5ab60a50-37ea-4e84-8b01-86cccc185121" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAYwAAAAoCAYAAADtw80GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAM1SURBVHhe7d0xSxthGMDxDn4Lx4wduznmI3Ts2M2piEsKLh0cdBMnwSFLwamIk5Alg0McQqBDQG3SUCVGQaoYDQTh8ZJ72lxy78U3lztz5v4/eJdXOcny/M3d5fJOAACwQDAAAFYIBgDACsEAAFghGAAAKwQDAGCFYAAArBAMAICVeILxsyELX06c9Uv2b3QvAn+r57KVb8jWwbV0dK+02/s7J7KYv9IdAEAc3lQwLgtn7nE3L+RS9wgGALyO8cHo3knxR10+rzkDuR+AE8mu12SnfK+/EMAiGKbhP3AlG/r3Nqq65QgdjJumrKydSnaa9e2PVPRwAJBGwcFoNWU55w5j08oYB71KWjBa5/JRjxd+NQgGgFQzB+PRGdgai8W1muydtd39blsqhZos6RBdcob0v2sJQxIcDO/xAAD2DMF4ksr3U3cw5xpSetRtj065Lh/6A/hUdn7rphfBAIC54w9GtyVfdbguH+k7C5+27G/qoN5t6Z7HJMFwlumaQUZ/RjAAIAnahmBUG3qBuy7Fru4ZdI5r7vBeNZzbnzAY41Ym5wnJqu4TDAB4db5gjD9V5PF/CBuiEOEpKeOaIhhh16fCC3eGAcCc8wWjkncH5NgB3DcY6luj/7Un+BrGe89pr0nWyhHBAJBuvmBYDeA+81Dv46I3AMyd1L3DIBgAEM7sr2E4y3QKiLukACBZfMFI2l1SUQdj6K6riVZdDgNeCwCkgT8YntNBy0cPujdq8DmMjGlQWwQjjCiCEX5F+1oA4K0xBGPkk96GdxlDn/Q+e9Jdj6QFAwAwNUMwHJ5nSS3kes+S0ncaI8+SyjpDOuyzpIY9SOmg4X7XxfGt7vkRDACYHXMwel54Wm12uymmx0j1TRyMO9lbd487bvATDACYneBg9AR+H8ad/kKAmILRaV1LsdySYvWWb9wDgFc2PhhhxRQMAMDszG8wIrkzKmB5TokBQFrMbzCi+FrWoLXdJBgAUodTUgAAK4kLxjSLx34AQHziCcZF0/1MRf5cSi/cUOW6l8Ntw6mfCdcOwQCA2MQTDADA3CEYAAArBAMAYIVgAACsEAwAgBWCAQCwQjAAABZEngHfwEJ0v17NvgAAAABJRU5ErkJggg==" InformativeScreenshot="1d05ff1d788c7de0bffd11a285602b92.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1671110829215' title='NH Bank - 농협인터넷뱅킹' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -144,37 +143,37 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dt_events]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='이벤트'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='조회수'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='좋아요'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' text='조회수 :' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='p' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='em' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="563.2,167.2" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dt_events]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='이벤트'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='조회수'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='좋아요'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' text='조회수 :' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='p' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='em' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="451,158" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="75c2cb4e-6b0b-4614-b57f-a7f5e33e9588" Version="V3">
               <uix:NExtractData.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="1367, 1032, 1380, 1610" DesignTimeScaleFactor="2" FriendlyName="'2022년 12월 카드자동납부 응모 이벤트'" FullSelectorArgument="&lt;webctrl class='sns_wrap' parentid='form01' tag='DIV' /&gt;" Guid="c8cb2175-dee3-476b-8e56-3be32f285eed" InformativeScreenshot="259dc708962fb61e1e8e98c8ff3ce325.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1671110829215' title='라운지 &amp;gt; NHBank스토리 &amp;gt; 이벤트 &amp;gt; 전체이벤트' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
               </uix:NExtractData.Target>
             </uix:NExtractData>
-            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dt_events]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="563.2,125.6" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="event" WorkbookPath="event목록.xlsx" />
-            <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="563.2,32" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="563.2,985.6" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dt_events]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="451,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="event" WorkbookPath="event목록.xlsx" />
+            <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="451,25" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="451,937" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
               <ui:IfElseIf.ConditionBlocks>
                 <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                   <ui:IfElseIfBlock BlockType="If" Condition="[NoFileFlag]">
                     <ui:IfElseIfBlock.Then>
-                      <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="400,374.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="400,354" sap2010:WorkflowViewState.IdRef="Sequence_3">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ucas:UploadStorageFile FileResource="{x:Null}" TimeoutMS="{x:Null}" Destination="[string.Format(&quot;{0}_{1}_event목록.xlsx&quot;, DefaultFolder, DateTime.Now.ToString(&quot;yyyy-MM-dd&quot;))]" DisplayName="Upload Storage File" FolderPath="[DefaultFolder]" sap:VirtualizedContainerService.HintSize="337.6,251.2" sap2010:WorkflowViewState.IdRef="UploadStorageFile_2" Path="[string.Format(&quot;{0}_{1}_event목록.xlsx&quot;, DefaultFolder, DateTime.Now.ToString(&quot;yyyy-MM-dd&quot;))]" StorageBucketName="SharedBucket" />
+                        <ucas:UploadStorageFile FileResource="{x:Null}" TimeoutMS="{x:Null}" Destination="[string.Format(&quot;{0}_{1}_event목록.xlsx&quot;, DefaultFolder, DateTime.Now.ToString(&quot;yyyy-MM-dd&quot;))]" DisplayName="TYPE1 &gt; Upload Storage File" FolderPath="[DefaultFolder]" sap:VirtualizedContainerService.HintSize="338,243" sap2010:WorkflowViewState.IdRef="UploadStorageFile_2" Path="[string.Format(&quot;{0}_{1}_event목록.xlsx&quot;, DefaultFolder, DateTime.Now.ToString(&quot;yyyy-MM-dd&quot;))]" StorageBucketName="SharedBucket" />
                       </Sequence>
                     </ui:IfElseIfBlock.Then>
                   </ui:IfElseIfBlock>
                   <ui:IfElseIfBlock BlockType="Else">
                     <ui:IfElseIfBlock.Then>
-                      <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="400,374.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="400,354" sap2010:WorkflowViewState.IdRef="Sequence_4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ucas:UploadStorageFile FileResource="{x:Null}" TimeoutMS="{x:Null}" Destination="[string.Format(&quot;{0}_{1}_event목록.xlsx&quot;, DefaultFolder, DateTime.Now.ToString(&quot;yyyy-MM-dd&quot;))]" DisplayName="Upload Storage File" FolderPath="[DefaultFolder]" sap:VirtualizedContainerService.HintSize="337.6,251.2" sap2010:WorkflowViewState.IdRef="UploadStorageFile_1" Path="event목록.xlsx" StorageBucketName="SharedBucket" />
+                        <ucas:UploadStorageFile FileResource="{x:Null}" TimeoutMS="{x:Null}" Destination="[string.Format(&quot;{0}_{1}_event목록.xlsx&quot;, DefaultFolder, DateTime.Now.ToString(&quot;yyyy-MM-dd&quot;))]" DisplayName="TYPE2 &gt; Upload Storage File" FolderPath="[DefaultFolder]" sap:VirtualizedContainerService.HintSize="338,243" sap2010:WorkflowViewState.IdRef="UploadStorageFile_1" Path="event목록.xlsx" StorageBucketName="SharedBucket" />
                       </Sequence>
                     </ui:IfElseIfBlock.Then>
                   </ui:IfElseIfBlock>
