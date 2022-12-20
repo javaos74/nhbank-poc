@@ -90,6 +90,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="금강위공통업무엑셀취합" sap:VirtualizedContainerService.HintSize="910,3826" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -197,7 +198,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="434,139" sap2010:WorkflowViewState.IdRef="NClick_2" InUiElement="[title]" KeyModifiers="None" MouseButton="Left" Version="V3" />
-                                    <ui:GetLastDownloadedFile IgnoreFiles="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="C:\Users\charles\Downloads" File="[download_file]" sap:VirtualizedContainerService.HintSize="434,529" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1">
+                                    <ui:GetLastDownloadedFile IgnoreFiles="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="[Path.Combine( Environment.GetFolderPath( Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[download_file]" sap:VirtualizedContainerService.HintSize="434,529" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1">
                                       <ui:GetLastDownloadedFile.Body>
                                         <ActivityAction>
                                           <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="400,269" sap2010:WorkflowViewState.IdRef="Sequence_3">
