@@ -1,6 +1,6 @@
 {
-  "name": "NHBankPoC-RPA챌린지",
-  "description": "NBBank PoC 데모 프로세스-RPA챌린지",
+  "name": "NHBankPoC-금강위공통업무엑셀취합",
+  "description": "NBBank PoC 데모 프로세스",
   "main": "농협은행사이트접속.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.1]",
@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.4.0",
-  "projectVersion": "1.0.13",
+  "projectVersion": "1.0.14",
   "runtimeOptions": {
     "exceptionHandlerWorkflow": "글로벌핸들러.xaml",
     "autoDispose": false,

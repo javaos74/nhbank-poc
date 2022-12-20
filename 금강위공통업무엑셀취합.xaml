@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1030,3850</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1236,3971</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>금강위공통업무엑셀취합_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="41">
@@ -92,7 +92,7 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="금강위공통업무엑셀취합" sap:VirtualizedContainerService.HintSize="910,3705" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="금강위공통업무엑셀취합" sap:VirtualizedContainerService.HintSize="910,3826" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="fss_url" />
       <Variable x:TypeArguments="x:String" Name="result_file_path" />
@@ -121,6 +121,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
+    <ui:CreateDirectory Output="{x:Null}" ContinueOnError="True" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="848,81" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="output" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: 금융감독원 통합홈페이지" sap:VirtualizedContainerService.HintSize="848,3273" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="654ca2d3-13df-47ff-90f7-2df60a40f149" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
