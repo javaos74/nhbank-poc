@@ -1,6 +1,6 @@
 {
-  "name": "NHBankPoC-농협은행사이트접속",
-  "description": "NBBank PoC 데모 프로세스-농협은행사이트접속",
+  "name": "NHBankPoC-금강위공통업무엑셀취합",
+  "description": "NBBank PoC 데모 프로세스-금강위공통업무엑셀취합",
   "main": "농협은행사이트접속.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.1]",
